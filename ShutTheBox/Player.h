@@ -13,7 +13,6 @@
 @interface Player : NSObject
 
 @property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSArray *tiles;
 @property (nonatomic, readonly) NSUInteger score;
 
 // Public methods

@@ -13,6 +13,9 @@
 // Redeclare public readonly score to be writable
 @property (nonatomic, readwrite) NSUInteger score;
 
+// Don't expose tiles
+@property (strong, nonatomic) NSArray *tiles;
+
 // Private methods
 - (BOOL)isFirstTileOpen;
 - (NSArray *)openNumbers;
