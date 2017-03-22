@@ -56,11 +56,10 @@
 // NO  -- stop
 - (BOOL)play
 {
-    //NSMutableArray *numbers = [NSMutableArray arrayWithArray:[self openNumbers]];
     NSArray *numbers = [self openNumbers];
     NSUInteger count = [numbers count];
     if (count == 0) {
-        // No open numbers. Score is 0 -- aka "Shut the Box"
+        // No open numbers. Score is 0 (default; aka "Shut the Box")
         return NO;
     }
 
