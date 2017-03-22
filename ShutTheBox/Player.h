@@ -14,7 +14,7 @@
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSArray *tiles;
-@property (nonatomic) NSUInteger score;
+@property (nonatomic, readonly) NSUInteger score;
 
 // Public methods
 - (instancetype)initWithName:(NSString *)name;

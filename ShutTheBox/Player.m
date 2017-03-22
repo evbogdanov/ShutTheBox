@@ -10,6 +10,9 @@
 
 @interface Player ()
 
+// Redeclare public readonly score to be writable
+@property (nonatomic, readwrite) NSUInteger score;
+
 // Private methods
 - (BOOL)isFirstTileOpen;
 - (NSArray *)openNumbers;
