@@ -16,17 +16,6 @@
 // Don't expose tiles
 @property (strong, nonatomic) NSArray *tiles;
 
-// Private methods
-- (BOOL)isFirstTileOpen;
-- (NSArray *)openNumbers;
-- (void)closeTileWithNumber:(NSUInteger)number;
-- (NSUInteger)sumNumbers:(NSArray *)numbers;
-- (NSArray *)findCombinationWithSum:(NSUInteger)sum
-                            numbers:(NSArray *)numbers;
-- (NSArray *)findCombinationWithSum:(NSUInteger)sum
-                            numbers:(NSArray *)numbers
-                        combination:(NSArray *)combination;
-
 @end
 
 @implementation Player
