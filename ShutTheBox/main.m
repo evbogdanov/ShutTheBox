@@ -7,16 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Player.h"
+#import "Game.h"
 
-int main(int argc, const char * argv[]) {
+int main()
+{
     @autoreleasepool {
         
-        Player *alice = [[Player alloc] initWithName:@"Alice"];
-        while ([alice play]) {
-            // Just wait
-        }
-        NSLog(@"Score is %lu", alice.score);
+        Game *game = [[Game alloc] initWithPlayerNames:@[@"Alice", @"Bob"]];
+        [game start];
         
     }
     return 0;

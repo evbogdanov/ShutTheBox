@@ -58,7 +58,7 @@
         return NO;
     }
 
-    NSLog(@"Open numbers: %@", numbers);
+    NSLog(@"%@: open numbers are %@", self.name, numbers);
     
     NSUInteger sum;
     // If 1 is the only tile still open, the player may roll only one die
@@ -70,7 +70,7 @@
         sum = [Dice roll] + [Dice roll];
     }
     
-    NSLog(@"Sum: %lu", sum);
+    NSLog(@"%@: sum is %lu", self.name, sum);
     
     NSArray *combination = [self findCombinationWithSum:sum numbers:numbers];
     if ([combination count] == 0) {
@@ -80,7 +80,7 @@
         return NO;
     }
     
-    NSLog(@"Combination: %@", combination);
+    NSLog(@"%@: combination is %@", self.name, combination);
     
     // Close tile for each number in this combination
     for (NSNumber *num in combination) {

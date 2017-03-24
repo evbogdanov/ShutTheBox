@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61B076C1E84E62300368DF2 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B076B1E84E62300368DF2 /* Game.m */; };
 		A68395FD1E7F981500FE19D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A68395FC1E7F981500FE19D3 /* main.m */; };
 		A683960B1E7F9BD400FE19D3 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A683960A1E7F9BD400FE19D3 /* Player.m */; };
 		A68396111E7F9CED00FE19D3 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = A68396101E7F9CED00FE19D3 /* Tile.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A61B076A1E84E62300368DF2 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		A61B076B1E84E62300368DF2 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		A68395F91E7F981500FE19D3 /* ShutTheBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShutTheBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68395FC1E7F981500FE19D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A68396091E7F9BD400FE19D3 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				A68396101E7F9CED00FE19D3 /* Tile.m */,
 				A6F75F951E7FCF9A009CF31C /* Dice.h */,
 				A6F75F961E7FCF9A009CF31C /* Dice.m */,
+				A61B076A1E84E62300368DF2 /* Game.h */,
+				A61B076B1E84E62300368DF2 /* Game.m */,
 			);
 			path = ShutTheBox;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61B076C1E84E62300368DF2 /* Game.m in Sources */,
 				A6F75F971E7FCF9A009CF31C /* Dice.m in Sources */,
 				A68395FD1E7F981500FE19D3 /* main.m in Sources */,
 				A683960B1E7F9BD400FE19D3 /* Player.m in Sources */,
